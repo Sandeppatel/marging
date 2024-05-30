@@ -1,13 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
     <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet" />
+    <link rel="stylesheet" href="marg.css">
 </head>
-<body >
+
+<body>
+    <div class="landing h-screen w-full font-[gilroy] capitalize text-white ">
+        <div class="nav flex px-10 py-3 justify-between items-center">
+            <h1 class="text-3xl font-bold">Jeep</h1>
+            <div class="atag text-xs flex gap-16 items-center justify-centers">
+                <a class="hover:text-orange-500" href="#">Home</a><a class="hover:text-orange-500" href="#">about
+                    us</a><a class="hover:text-orange-500" href="#">vehicals<i
+                        class="ri-arrow-drop-down-line"></i></a><a class="hover:text-orange-500" href="#">servics<i
+                        class="ri-arrow-drop-down-line"></i></a><a class="hover:text-orange-500" href="#">test
+                    drive</a><a class="hover:text-orange-500" href="#">contest</a>
+            </div>
+            <div class="logo text-sm opacity-50 gap-5 flex ">
+                <i class="font-bold">m</i>
+                <i class="ri-phone-fill"></i>
+                <i class="ri-search-line"></i>
+            </div>
+        </div>
+        <h1 class="text-[200px] font-bold uppercase absolute z-[0] opacity-5 -mt-12 -ml-5 ">compass</h1>
+        <div class="bottom flex mt-5 gap-5">
+            <div class="left mt-24 ml-10 w-80 ">
+                <h1 class="uppercase text-5xl tracking-wider font-bold ">compass</h1>
+                <p class="text-xs leading-6 mt-3 ">Lorem ipsum dolor sit amet, consectetur <br> adipisicing elit. minus
+                    ipsum.</p>
+                <button class="px-8 mt-12 py-2 border border-yellow-700 text-yellow-500 text-xs rounded-2xl ">know
+                    more</button>
+                <div class="mt-24 flex gap-2 opacity-50 flex-col">
+                    <i class="ri-facebook-fill"></i>
+                    <i class="ri-instagram-line"></i>
+                    <i class="ri-twitter-fill"></i>
+                </div>
+            </div>
+            <div class="righth-[85vh] w-[70vw]">
+                <div class=" flex justify-center items-center"> <img class="ml-20 h-[80vh]"
+                        src="/car.png" alt="">
+                    <div class="flex text-2xl font-bold gap-5 flex-col">
+                        <i class="ri-arrow-right-line"></i>
+                        <i class="opacity-50 ri-arrow-left-line"></i>
+                    </div>
+                </div>
+                <i class=" ml-52 opacity-50 text-2xl ri-mouse-line"></i>
+            </div>
+        </div>
+    </div>
     <div id="page2  " class="h-screen w-full bg-white opacity-80 ">h-full w-[20%] bg-red-500
         <div class="part1 h-[60%] w-full  flex">
             <div class="part1-one  h-full w-1/2  p-12 pl-20">
@@ -44,5 +89,113 @@
             </div>
         </div>
     </div>
+    <div class="main1 bg-slate-800">
+        <div class="top flex justify-center items-center py-6">
+            <h1 class="text-white text-3xl">Jeep Vehicles</h1>
+        </div>
+        <div class="center flex justify-around items-center gap-12 mt-10">
+            <div class="card1 h-96 w-96 px-4">
+                <img src="/car1.png" alt="" srcset="">
+                <h4 class="text-white text-xl text-center">Grand Cherokee SRT<sup>*</sup></h4>
+                <h4 class="text-white/50 text-xs mt-4 text-center">Now starting at</h4>
+                <h1 class="text-yellow-500 text-2xl text-center">Rs.93.70 Lakh<sup>*</sup></h1>
+                <button class="py-1 px-4 rounded-full bg-transparent text-yellow-500 text-sm border-yellow-500 border ml-32 mt-4">Know More</button>
+            </div>
+            <div class="card2 h-96 w-96 px-4">
+                <img src="/car1.png" alt="">
+                <h4 class="text-white text-xl text-center">Grand Cherokee</h4>
+                <h4 class="text-white/50 text-xs mt-4 text-center">Now starting at</h4>
+                <h1 class="text-yellow-500 text-2xl text-center">Rs.93.70 Lakh<sup>*</sup></h1>
+                <button class="py-1 px-4 rounded-full bg-transparent text-yellow-500 text-sm border-yellow-500 border ml-32 mt-4">Know More</button>
+            </div>
+            <div class="card3 h-96 w-96 px-4">
+                <img src="/car1.png" alt="" srcset="">
+                <h4 class="text-white text-xl text-center">Compass</h4>
+                <h4 class="text-white/50 text-xs mt-4 text-center">Now starting at</h4>
+                <h1 class="text-yellow-500 text-2xl text-center">Rs.93.70 Lakh<sup>*</sup></h1>
+                <button class="py-1 px-4 rounded-full bg-transparent text-yellow-500 text-sm border-yellow-500 border ml-32 mt-4">Know More</button>
+            </div>
+        </div>
+        <div class="bottom flex justify-center items-center py-4 text-white text-xl">
+            <i class="ri-git-commit-line"></i><i class="ri-git-commit-line"></i><i class="ri-git-commit-line"></i>
+        </div>
+    </div>
+    <div class="main2 bg-white">
+        <div class="text-white flex justify-center items-center">
+            <h1>Gallery</h1>
+        </div>
+    </div>
+    <div class="page  w-[100vw] py-10 bg-[#1E1E27] overflow-hi">
+        <div class="text text-center">
+            <h1 class="text-white text-[3vw]">Schedule a Test drive</h1>
+            <h1 class="text-[#fff] text-opacity-40 mt-1">Lorem ipisicing elit. Ullam vero nesciunt adipisci unde magnam facilis obcaecati alias dolorum eveniet ipsa.</h1>
+        </div>
+
+        <div class="box w-[100vw] flex justify-center mt-10 ">
+              <div class="flex w-[80vw]   border-white border-2">
+                 <div class="left w-[40%] border-r-2 flex  justify-center">
+                       <div class="mt-5 mb-10">
+                         <h1 class="font-semibold text-white text-[1.8vw]">Select the Vehicle</h1>
+                               
+                          <div class="font-semibold text-[2vh] mt-10 text-white leading-[2.4vw]">
+                          <h1 class="hover:text-[#A9911F]"><i class="px-1 py-1 text-[#1E1E27] border-2 hover:border-[#A9911F] hover:bg-[#A9911F] rounded-full ri-check-line"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Compass</h1>
+                          <h1 class="hover:text-[#A9911F]"><i class="px-1 py-1 text-[#1E1E27] border-2 hover:border-[#A9911F] hover:bg-[#A9911F] rounded-full ri-check-line"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Compass Trailhawk</h1>
+                          <h1 class="hover:text-[#A9911F]"><i class="px-1 py-1 text-[#1E1E27] border-2 hover:border-[#A9911F] hover:bg-[#A9911F] rounded-full ri-check-line"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Wrangler Unlimited</h1>
+                          <h1 class="hover:text-[#A9911F]"><i class="px-1 py-1 text-[#1E1E27] border-2 hover:border-[#A9911F] hover:bg-[#A9911F] rounded-full ri-check-line"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Grand Cherokee SRT'</h1>
+                          <h1 class="hover:text-[#A9911F]"><i class="px-1 py-1 text-[#1E1E27] border-2 hover:border-[#A9911F] hover:bg-[#A9911F] rounded-full ri-check-line"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Grand Cherokee</h1>
+                          </div>
+
+                       </div>
+                 </div>
+                 <div class="right width-[60%] mt-10 mb-10 flex items-center justify-center ">
+                       <div class="w-[60%]">
+                          <h1 class="text-white font-bold text-[1.5vw] whitespace-nowrap" >CONTACT INFORMATION</h1>
+                          <input class="bg-[#2A2A34] text-white block px-5 mt-10 rounded-full w-[28vw] py-4 " type="text" placeholder="Name"  name="" id=""> 
+                          <input class="bg-[#2A2A34] text-white mt-5 px-5  block  rounded-full w-[28vw] py-4 " type="email" placeholder="Email"  name="" id="">
+                          <input class="bg-[#2A2A34] mt-5 px-5 block  rounded-full w-[28vw] py-4 " type="text" placeholder="Number"  name="" id="">  
+
+                          <h1 class="text-white mt-5"><i class="px-1 py-1 text-[#1E1E27] border-2 hover:border-[#A9911F] hover:bg-[#A9911F] rounded-full ri-check-line"></i>&nbsp;&nbsp;<span class="opacity-40">I agree with the</span> <span class="font-semibold">Pvivacy Policy</span></h1>
+                          <button class="px-[10vh] whitespace-nowrap  py-[2vh] mt-6 border-2 border-yellow-700 text-[3vh] rounded-full text-yellow-700">Know More</button>
+                         </div>
+                 </div>
+             </div>
+        </div>
+
+        <div class="w-full mt-[20vh]  px-[10vh] flex justify-between">
+           <div class="text-white text-[1.5vw] flex flex-col gap-[2vh]">
+             <i class="ri-facebook-fill"></i>
+             <i class="ri-instagram-fill"></i>
+             <i class="ri-twitter-fill"></i>
+           </div>
+           <div class="text-white">
+             <h1 class="font-bold text-[2.5vh]">VEHICLES</h1>
+             <h1 class="text-[2vh] font-semibold mt-5">Compass</h1>
+             <h1 class="text-[2vh] font-semibold mt-2">Wrangler Unlimited</h1>
+             <h1 class="text-[2vh] font-semibold mt-2">Grand Cherokee</h1>
+             <h1 class="text-[2vh] font-semibold mt-2">Grand Chercker SRTS</h1>
+           </div>
+           <div class="text-white">
+             <h1 class="font-bold text-[2.5vh] ">RESEARCH</h1>
+             <h1 class="text-[2vh] font-semibold mt-5">Specifications</h1>
+             <h1 class="text-[2vh] font-semibold mt-2">Get a Brochure</h1>
+             <h1 class="text-[2vh] font-semibold mt-2">Sign Up for Updates</h1>
+             <h1 class="text-[2vh] font-semibold mt-2">Corporate Enquires</h1>
+           </div>
+           <div class="text-white">
+             <h1 class="font-bold text-[2.5vh]">Locate</h1>
+             <h1 class="text-[2vh] font-semibold mt-5">144,Old Mahabalipuran Road</h1>
+             <h1 class="text-[2vh] font-semibold mt-2">Perungudl Near Toll PLAZA</h1>
+             <h1 class="text-[2vh] font-semibold mt-2">Chennai Tamil Naadu 600096</h1>
+             
+           </div>
+           <div class="text-white">
+             <h1 class="font-bold opacity-30 text-[1.5vh] w-[30vw]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore qui culpa quibusdam. Dolore eveniet aliquid officia recusandae corrupti cum totam commodi, facilis, debitis quas quod molestias sequi soluta quia quae natus? Aliquam, consequuntur. Veniam minus iusto quia, expedita laboriosam optio, distinctio animi asperiores sapiente molestiae provident qui possimus voluptate consectetur. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam, dolores itaque. Repellendus ratione fugiat molestias. Temporibus veniam tenetur suscipit autem!</h1>
+              <h1 class="text-[2.5vh] mt-5 "><span class="text-yellow-400">Customer Support:</span> +91 98765 43210</h1> 
+         </div>
+        </div>
+ </div>
+    
 </body>
+
 </html>
+           
